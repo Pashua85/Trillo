@@ -1,3 +1,32 @@
-@import "base";
-@import "layout";
-@import "components";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+
+@import "components/btn";
+@import "components/btn-inline";
+@import "components/call-to-action";
+@import "components/gallery";
+@import "components/legal";
+@import "components/list";
+@import "components/logo";
+@import "components/recommend";
+@import "components/review";
+@import "components/search";
+@import "components/side-nav";
+@import "components/user-nav";
+
+
+@import "layout/container";
+@import "layout/content";
+@import "layout/detail";
+@import "layout/description";
+@import "layout/header";
+@import "layout/sidebar";
+@import "layout/user-reviews";
+
+@import "page/hotel-view";
+@import "page/overview";
+
+
